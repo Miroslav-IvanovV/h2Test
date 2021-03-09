@@ -52,6 +52,7 @@ public class MyFrame extends JFrame{
     JTable table=new JTable();
     JScrollPane myScroll=new JScrollPane(table);
 
+
     public MyFrame() {
         this.setSize(400, 600);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
